@@ -39,5 +39,5 @@ details {
 }
 
 img {
-    width: 14px;        /* SVG 與文字之間加一點間距 */
+    width: 1rem;        /* SVG 與文字之間加一點間距 */
 }
