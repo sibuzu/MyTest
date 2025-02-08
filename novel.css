@@ -5,6 +5,7 @@ body {
 @media (max-width: 768px) {
     body {
         font-size: 14px; /* 手機版的字體大小 */
+        color: red;
     }
 }
 
@@ -12,6 +13,7 @@ body {
 @media (min-width: 769px) {
     body {
         font-size: 17px; /* 桌面版的字體大小 */
+        color: green;
     }
 }
 
