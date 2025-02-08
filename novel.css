@@ -35,9 +35,9 @@ body {
 }
 
 details {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-svg {
-    margin-right: 8px;        /* SVG 與文字之間加一點間距 */
+img {
+    width: 14px;        /* SVG 與文字之間加一點間距 */
 }
