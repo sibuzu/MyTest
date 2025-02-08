@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>語音合成</title>
+</head>
+<body>
+    <h2>點擊按鈕朗讀文字</h2>
+    <p id="text">たった一言褒めてやっただけで、もう俺にメロメロだ</p>
+    <button onclick="speakText()">朗讀</button>
+
+    <script>
+        function speakText() {
+            const text = document.getElementById("text").textContent;
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = "zh-TW";
+            window.speechSynthesis.speak(utterance);
+        }
+    </script>
+</body>
+</html>
