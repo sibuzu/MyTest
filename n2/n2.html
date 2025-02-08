@@ -7,14 +7,14 @@
 </head>
 <body>
     <h2>點擊按鈕朗讀文字</h2>
-    <p id="text">俺の上で嬌声を上げるウィルネを、突き上げる</p>
+    <p id="text">こんにちは。俺の上で嬌声を上げるウィルネを、突き上げる</p>
     <button onclick="speakText()">朗讀</button>
 
     <script>
         function speakText() {
             const text = document.getElementById("text").textContent;
             const utterance = new SpeechSynthesisUtterance(text);
-            utterance.lang = "zh-TW";
+            utterance.lang = "ja";
             window.speechSynthesis.speak(utterance);
         }
     </script>
