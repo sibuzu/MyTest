@@ -1,17 +1,17 @@
 body {
-    font-size: 12px; /* 設定根元素字體大小為 16px */
+    font-size: 13px; /* 設定根元素字體大小為 16px */
 }
 
 @media (max-width: 1024px) {
     body {
-        font-size: 12px; /* 手機版的字體大小 */
+        font-size: 13px; /* 手機版的字體大小 */
     }
 }
 
 /* 當螢幕寬度大於 768px（桌面）時 */
 @media (min-width: 1025px) {
     body {
-        font-size: 12px; /* 桌面版的字體大小 */
+        font-size: 16px; /* 桌面版的字體大小 */
     }
 }
 
