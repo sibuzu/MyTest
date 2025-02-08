@@ -1,0 +1,24 @@
+.translate {
+    color: darkblue;
+    border: 1px dashed darkblue;  /* 設定虛線邊框，顏色為黑色 */
+    padding: 2px;  /* 給 span 增加一些內距，使邊框可見 */
+    margin-top: 0px;
+    margin-bottom: -10px;
+}
+
+.furigana {
+    color: darkred;
+  }
+  
+.container {
+    display: flex;            /* 設定為 Flexbox */
+    align-items: center;      /* 垂直置中對齊 */
+}
+
+details {
+    margin-bottom: 20px;
+}
+
+svg {
+    margin-right: 8px;        /* SVG 與文字之間加一點間距 */
+}
