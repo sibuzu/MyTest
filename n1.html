@@ -14,7 +14,7 @@
         function speakText() {
             const text = document.getElementById("text").textContent;
             const utterance = new SpeechSynthesisUtterance(text);
-            utterance.lang = "zh-TW";
+            utterance.lang = "ja";
             window.speechSynthesis.speak(utterance);
         }
     </script>
